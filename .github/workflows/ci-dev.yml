@@ -69,7 +69,7 @@ jobs:
       - name: Download Terraform State
         run: |
           aws s3 cp \
-            s3://terraform-backend-bucket-vishal/frontend/webapp/dev/terraform.tfstate \
+            s3://terraform-backend-bucket-vishal/frontend/static/dev/terraform.tfstate \
             terraform.tfstate
 
       ############################################################
